@@ -20,7 +20,7 @@ public class JDBCExample {
 			// Driver changes based on the database used Oracle/MySQL
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample", "root", "@database4ME");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample", "root", "Sriya@2000");
 			// here sample is database name, root is username and password
 
 			// ************ Using Statement *********//

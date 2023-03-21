@@ -17,7 +17,7 @@ public class JDBCWithTransaction {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// here sample is database name, root is username and password
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample", "root", "@database4ME");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample", "root", "Sriya@2000");
 
 			// Enable transaction
 			con.setAutoCommit(false);
